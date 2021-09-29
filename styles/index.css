@@ -1,0 +1,72 @@
+* {
+    background-color: lemonchiffon;
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+@keyframes example {
+    from {background-color: lemonchiffon;}
+    to {background-color: lightgray;}
+  }
+
+.logo {
+    
+    font-size: 30px;
+    line-height: 48px;
+    color: orange;
+    margin-top: 37px;
+    margin-left: 50px;
+    
+
+}
+
+section {
+    display: inline-block;
+}
+
+.title {
+    max-width: 495px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 50px;    
+    font-size: 50px;
+    line-height: 76px;    
+    color: #1B0A42;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.title:hover{
+    transform: rotatey(180deg);
+}
+.info {
+    max-width: 583px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #9A9A9A;
+      
+    
+}
+
+
+
+.button {
+    width: 152px;
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: papayawhip;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;    
+    text-align: center;
+    color: black;
+    border: none;
+}
+.button:hover {
+    background-color: orange;
+}
